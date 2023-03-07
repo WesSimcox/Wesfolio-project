@@ -1,0 +1,78 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+    line-height:1.5;
+}
+
+#heading{
+    font-size: 75px;
+    color:mintcream;
+    background-color:rgb(35, 35, 39);
+    text-align:center;
+    padding:2%;
+    border:5px solid black;
+    border-radius:25px;
+}
+
+.topnav{
+    display:flex;
+    justify-content:flex-end;
+    background-color:rgb(35, 35, 39);
+    overflow:hidden;
+}
+
+.topnav a{
+    Float:left;
+    color:mintcream;
+    text-align:center;
+    padding:10px 13px;
+    text-decoration:none;
+    font-size: 25px;
+}
+
+.topnav a:hover{
+    background-color:rgb(60, 130, 235);
+    color:mintcream;
+}
+
+.topnav a.active{
+    background-color:rgb(27, 4, 235);
+    color:mintcream;
+}
+
+.AboutMe{
+    border:5px solid black;
+    text-align:center;
+
+}
+
+.Work{
+    border:5px solid black;
+    text-align:center;
+
+}
+
+.Resume{
+    border:5px solid black;
+    text-align:center;
+}
+
+.ContactMe{
+    border:5px solid black;
+    text-align:center;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    display:block;
+}
+
+footer{
+    display:flex;
+    justify-content:center;
+    padding: 5%;
+    background-color:rgb(35, 35, 39);
+    color:mintcream;
+}
